@@ -16,10 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false" />
         <activity
             android:name=".CreateNewContact"
             android:label="@string/title_activity_create_new_contact"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

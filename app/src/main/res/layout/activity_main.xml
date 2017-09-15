@@ -18,7 +18,8 @@
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="38dp"
-            android:text="@string/create" />
+            android:text="@string/create"
+            android:onClick="createNew"/>
 
         <Button
             android:id="@+id/buttonEdit"

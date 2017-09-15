@@ -6,5 +6,18 @@
     <string name="display">Display Contact</string>
     <string name="finish">Finish</string>
     <string name="title_activity_create_new_contact">CreateNewContact</string>
-
+    <string name="save">Save</string>
+    <string name="first"></string>
+    <string name="last"></string>
+    <string name="company"></string>
+    <string name="phone"></string>
+    <string name="email"></string>
+    <string name="url"></string>
+    <string name="address"></string>
+    <string name="birthday"></string>
+    <string name="nickname"></string>
+    <string name="facebook"></string>
+    <string name="twitter"></string>
+    <string name="skype"></string>
+    <string name="youtube"></string>
 </resources>
