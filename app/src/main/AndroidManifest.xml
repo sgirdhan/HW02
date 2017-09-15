@@ -25,6 +25,14 @@
             android:label="@string/title_activity_create_new_contact"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+
+        <activity android:name=".AddContactActivity"
+            android:label="@string/title_activity_create_new_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".EditContactActivity" />
+        <activity android:name=".DeleteContactActivity" />
+        <activity android:name=".ShowContactActivity"></activity>
     </application>
 
 </manifest>

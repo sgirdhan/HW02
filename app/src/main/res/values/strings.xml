@@ -20,4 +20,10 @@
     <string name="twitter"></string>
     <string name="skype"></string>
     <string name="youtube"></string>
+    <string name="alert_title_Pick_Contact">Pick a Contact</string>
+    <string name="no_contact_lable"> There are no contact to show. </string>
+    <string name="toast_no_contact_selected">No Contact Selected</string>
+    <string name="toast_contact_added_label">Contact Added</string>
+    <string name="toast_contact_updated_label">Contact Updated</string>
+    <string name="toast_contact_deleted_label">Contact Deleted</string>
 </resources>
