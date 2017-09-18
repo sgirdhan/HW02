@@ -5,7 +5,7 @@
     <string name="delete">Delete Contact</string>
     <string name="display">Display Contact</string>
     <string name="finish">Finish</string>
-    <string name="title_activity_create_new_contact">CreateNewContact</string>
+    <string name="title_activity_create_new_contact">Create New Contact</string>
     <string name="save">Save</string>
     <string name="first"></string>
     <string name="last"></string>
@@ -26,4 +26,22 @@
     <string name="toast_contact_added_label">Contact Added</string>
     <string name="toast_contact_updated_label">Contact Updated</string>
     <string name="toast_contact_deleted_label">Contact Deleted</string>
+
+    <string name="title_activity_edit_contact">Edit Contact</string>
+    <string name="title_activity_delete_contact">Delete Contact</string>
+    <string name="title_activity_show_contact">Display Contact</string>
+    <string name="title_activity_list_contact">Contacts List</string>
+    <string name="fullName">Full Name: </string>
+    <string name="companyLabel">Company: </string>
+    <string name="phoneLabel">Phone: </string>
+    <string name="emailLabel">Email: </string>
+    <string name="urlLabel">URL: </string>
+    <string name="addressLabel">Address: </string>
+    <string name="birthdayLabel">Birthday: </string>
+    <string name="nicknameLabel">NickName: </string>
+    <string name="facebookLabel">Facebook URL: </string>
+    <string name="twitterLabel">Twitter URL: </string>
+    <string name="skypeLabel">Skype: </string>
+    <string name="youtubeLabel">Youtube URL: </string>
+
 </resources>

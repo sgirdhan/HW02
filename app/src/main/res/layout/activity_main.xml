@@ -40,8 +40,8 @@
             android:layout_below="@+id/buttonEdit"
             android:layout_marginRight="40dp"
             android:layout_marginTop="36dp"
-            android:text="Button"
-            tools:text="@string/delete" />
+            android:elevation="24dp"
+            android:text="@string/delete" />
 
         <Button
             android:id="@+id/buttonDisplay"

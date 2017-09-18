@@ -1,9 +1,249 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.sharangirdhani.homework02.ShowContactActivity">
+    xmlns:tools="http://schemas.android.com/tools" >
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/activity_show"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        tools:context="com.example.sharangirdhani.homework02.ShowContactActivity">
+        <ImageButton
+            android:id="@+id/imageContact"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/add" />
+
+        <TextView
+            android:id="@+id/display_fullName_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageContact"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/fullName"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageContact"
+            android:layout_alignTop="@+id/display_fullName_label"
+            android:text=""
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/display_company_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_fullName_label"
+            android:layout_below="@+id/display_fullName_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/companyLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_fullName"
+            android:layout_alignTop="@+id/display_company_label"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_company_label"
+            android:layout_below="@+id/display_company_label"
+            android:layout_marginTop="12dp"
+            android:text="@string/phoneLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_phone_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_phone_label"
+            android:layout_below="@+id/display_phone_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/emailLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_email_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_url_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_email_label"
+            android:layout_below="@+id/display_email_label"
+            android:layout_marginTop="17dp"
+            android:text="@string/urlLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_url_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_url_label"
+            android:layout_below="@+id/display_url_label"
+            android:layout_marginTop="16dp"
+            android:text="@string/addressLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_address_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_nickname_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_address_label"
+            android:layout_below="@+id/display_address_label"
+            android:layout_marginTop="10dp"
+            android:text="@string/nicknameLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_fullName"
+            android:layout_alignTop="@+id/display_nickname_label"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_birthday_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_nickname_label"
+            android:layout_below="@+id/display_nickname_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/birthdayLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_birthday_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_facebookUrl_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_birthday_label"
+            android:layout_below="@+id/display_birthday_label"
+            android:layout_marginTop="10dp"
+            android:text="@string/facebookLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_facebookUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_facebookUrl_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_twitterUrl_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_facebookUrl_label"
+            android:layout_below="@+id/display_facebookUrl_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/twitterLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_twitterUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_twitterUrl_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_skype_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_twitterUrl_label"
+            android:layout_below="@+id/display_twitterUrl_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/skypeLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_skype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_fullName"
+            android:layout_alignTop="@+id/display_skype_label"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_youtube_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/display_skype_label"
+            android:layout_below="@+id/display_skype_label"
+            android:layout_marginTop="11dp"
+            android:text="@string/youtubeLabel"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/display_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/display_youtube_label"
+            android:layout_alignStart="@+id/display_fullName"
+            android:text=""
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+</layout>
